@@ -5,7 +5,7 @@
 ## 目錄
 
 ### AI
-- [backpropagation-explained](ai/backpropagation-explained.md)
+- [反向傳播（Backpropagation）完整解釋](ai/backpropagation-explained.md)
 - [lstm-complete-guide](ai/lstm-complete-guide.md)
 - [mac-screen-capture-yolo](ai/mac-screen-capture-yolo.md)
 - [top-10-cited-papers-21st-century](ai/top-10-cited-papers-21st-century.md)
