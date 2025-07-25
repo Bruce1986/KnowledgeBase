@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Webpage Saver",
-  "description": "Save the current page HTML to a folder.",
+  "description": "Downloads the HTML source of the current page to a folder.",
   "version": "1.0",
   "permissions": ["downloads", "activeTab"],
   "action": {
