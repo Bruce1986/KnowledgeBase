@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Webpage Saver",
+  "description": "Downloads the HTML source of the current page to a folder.",
+  "version": "1.0",
+  "permissions": ["downloads", "activeTab"],
+  "action": {
+    "default_title": "Save page"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "commands": {
+    "save-page": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+S"
+      },
+      "description": "Save the current tab"
+    }
+  }
+}
