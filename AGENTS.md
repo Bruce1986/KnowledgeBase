@@ -84,7 +84,7 @@
   ## 相關文件 (Related Documents)
   - [另一份文件](./path/to/another.md)
 
-其他關鍵注意事項與進acat策略
+## 其他關鍵注意事項與進階策略
 A. 善用 Metadata (YAML Frontmatter)
 如上述模板所示，在每個 Markdown 文件的最頂端使用 YAML Frontmatter 格式加入元數據。這對 AI 來說是黃金！
  * title: 明確的標題。
