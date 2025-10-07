@@ -86,21 +86,21 @@
   - [另一份文件](./path/to/another.md)
 
 ## 其他關鍵注意事項與進階策略
-A. 善用 Metadata (YAML Frontmatter)
+1. **善用 Metadata (YAML Frontmatter)**
 如上述模板所示，在每個 Markdown 文件的最頂端使用 YAML Frontmatter 格式加入元數據。這對 AI 來說是黃金！
  * title: 明確的標題。
  * tags: 關鍵字標籤，極大地增強了檢索能力。模型可以根據標籤找到關聯性高的文件。
  * last_updated: 模型可以知道這份資訊的「新鮮度」，甚至可以回答「根據 5 月份的最新資料...」。
  * version: 對於會頻繁變更的規格文件，版本號至關重要。
-B. 連結而非複製 (Linking over Duplication)
+2. **連結而非複製 (Linking over Duplication)**
 當一份文件需要參考另一份文件的內容時，務必使用相對路徑的 Markdown 連結 ([連結文字](./path/to/file.md))，而不是複製貼上內容。
  * 好處: 維持了資訊的「單一事實來源 (Single Source of Truth)」。當原始文件更新時，所有引用它的地方都會自動連結到最新的版本。這避免了資訊過時和不一致的問題。
-C. 自動化是您的好朋友
+3. **自動化是您的好朋友**
 當知識庫變大時，手動維護 README.md 的目錄會變得很痛苦。
  * 建立腳本 (scripts/generate_index.py): 寫一個簡單的 Python 腳本來掃描 data/ 目錄，並自動生成 README.md 中的結構化目錄。這樣每次有新文件加入時，只要執行一次腳本，總目錄就更新了。這確保了目錄永遠是最新的。
-D. Chunking 策略思維
+4. **Chunking 策略思維**
 雖然您已經將文件原子化，但有時單一文件仍然很長。在腦中要有一個「Chunking (分塊)」的概念。可以利用 Markdown 的標題（##, ###）來自然地將文件內容切分成有意義的段落。許多 RAG 系統會利用這些標題來做為切割知識的邊界。
-E. 貢獻指南 (CONTRIBUTING.md)
+5. **貢獻指南 (CONTRIBUTING.md)**
 這份文件是寫給人類看的。明確指示團隊成員如何新增、修改、刪除知識庫中的文件，包括：
  * 檔案命名規則。
  * 必須使用 templates/ 中的模板。
