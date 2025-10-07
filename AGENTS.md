@@ -65,23 +65,24 @@
  * _index.md 索引檔案: 每個主題目錄下都有一個 _index.md。它的作用是提供該主題的摘要和內部導覽，如同每一章的開頭導讀。
 3. templates/ 目錄：確保一致性的基石
 語言模型喜歡模式和結構。提供一個文件模板可以強制所有貢獻者遵循相同的格式。
- * standard_document_template.md 內容可能包含：
-   ---
-title: "[請填寫標題]"
-tags: [tag1, tag2]
-author: "[作者]"
-last_updated: "YYYY-MM-DD"
-version: "1.0"
----
+ * `standard_document_template.md` 內容可能包含：
+  ```markdown
+  ---
+  title: "[請填寫標題]"
+  tags: [tag1, tag2]
+  author: "[作者]"
+  last_updated: "YYYY-MM-DD"
+  version: "1.0"
+  ---
 
-## 摘要 (Summary)
-...
+  ## 摘要 (Summary)
+  ...
 
-## 詳細內容 (Details)
-...
+  ## 詳細內容 (Details)
+  ...
 
-## 相關文件 (Related Documents)
-- [另一份文件](./path/to/another.md)
+  ## 相關文件 (Related Documents)
+  - [另一份文件](./path/to/another.md)
 
 其他關鍵注意事項與進acat策略
 A. 善用 Metadata (YAML Frontmatter)
