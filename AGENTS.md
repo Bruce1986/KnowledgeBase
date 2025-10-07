@@ -47,14 +47,15 @@
  * 🎯 知識庫的目標 (Purpose): 開宗明義地告訴模型：「這個資料庫是關於 [公司名] 的 [產品/技術/內部流程] 資訊，最後更新於 [日期]。所有資訊應以此處為準。」這給了模型一個最頂層的上下文。
  * 🗺️ 結構化目錄 (Structured Table of Contents): 這就是您提到的檔案目錄。但不要只列出檔名，要加上簡短的描述。這能幫助模型在檢索時快速判斷哪個主題分類最相關。
    * 範例：
-     ## 知識庫導覽
 
-- **[產品資訊 (`/data/01_products/`)](./data/01_products/_index.md)**
-  - 包含所有產品的規格、定價、技術架構與常見問答。
-- **[內部協議 (`/data/02_protocols/`)](./data/02_protocols/_index.md)**
-  - 開發團隊必須遵守的 API 設計指南、資安規範與緊急應變流程。
-- **[最佳實踐 (`/data/03_best_practices/`)](./data/03_best_practices/_index.md)**
-  - 涵蓋程式碼審查標準、專案管理流程等，旨在提升團隊效率與品質。
+     **知識庫導覽**
+
+     - **[產品資訊 (`/data/01_products/`)](./data/01_products/_index.md)**
+       - 包含所有產品的規格、定價、技術架構與常見問答。
+     - **[內部協議 (`/data/02_protocols/`)](./data/02_protocols/_index.md)**
+       - 開發團隊必須遵守的 API 設計指南、資安規範與緊急應變流程。
+     - **[最佳實踐 (`/data/03_best_practices/`)](./data/03_best_practices/_index.md)**
+       - 涵蓋程式碼審查標準、專案管理流程等，旨在提升團隊效率與品質。
 
  * 🔍 如何查詢 (How to Query): 您可以給予模型一些指導，例如：「當被問及產品規格時，請優先查找 /data/01_products/ 目錄下的文件。」
 2. data/ 目錄：知識的原子化儲存
