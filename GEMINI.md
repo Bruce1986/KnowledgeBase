@@ -58,9 +58,9 @@ created: {{date:YYYY-MM-DD}}
 
 ```markdown
 ---
-tags: [Solution, #待分類]
+tags: [Solution, "#待分類"]
 aliases: []
-status: #草稿 # (可選: #可行, #已否決, #實施中)
+status: "#草稿" # (可選: #可行, #已否決, #實施中)
 created: {{date:YYYY-MM-DD}}
 ---
 # {{title}} (方案標題)
