@@ -30,7 +30,7 @@
 ---
 tags: [Problem, "#待分類"]
 aliases: []
-status: "#研究中" # (可選: #已解決, #已歸檔, #持續追蹤)
+status: "#研究中" # (狀態選項: #已解決, #已歸檔, #持續追蹤)
 created: {{date:YYYY-MM-DD}}
 ---
 # {{title}} (問題標題)
