@@ -67,7 +67,7 @@ created: {{date:YYYY-MM-DD}}
 - (使用者填寫，或請求 AI 分析並記錄於 Log)
 
 ## 3. 潛在風險 (Cons/Risks)
-- (使用者填寫或由你分析)
+- (使用者填寫，或請求 AI 分析並記錄於 Log)
 
 ## 4. 應用問題 (Applied Problems)
 - (使用 `[[P-XXX-問題名稱]]` 雙向連結到它能解決的 `/10_PROBLEMS/` 檔案)
