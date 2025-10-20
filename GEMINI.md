@@ -101,7 +101,7 @@ created: {{date:YYYY-MM-DD}}
    * 禁止修改「## 1. 現況描述」。
    * 禁止修改「## 1. 方案詳述」。
    * 禁止修改 YAML Frontmatter (例如 tags: 或 status:)。
-   * 絕對禁止修改本檔案 (_AI_MANIFEST.md) 的任何內容。
+   * 絕對禁止修改本檔案 (GEMINI.md) 的任何內容。
  * 【元規則：框架進化】 (Meta-Rule: Framework Evolution)：
    * 目標： 我們的共同目標是讓這個框架（Framework）本身不斷進化，使其更有效率。
    * 觸發： 當你在執行任務時，若發現本框架（GEMINI.md 中的任何規則）存在「模糊地帶」、「效率低下」或「阻礙了更高品質的分析」時...
