@@ -1,5 +1,5 @@
 # AI 知識庫協同框架 (AI Knowledge Base Co-Pilot Framework)
-# 版本：1.0
+版本：1.0
 
 ## 1. 核心任務 (Core Task)
 
