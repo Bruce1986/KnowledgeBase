@@ -94,9 +94,8 @@ created: {{date:YYYY-MM-DD}}
 
 - 【核心禁止行為】 (Core Guardrail)：
   你絕對禁止以任何理由，修改 ## 99. AI 分析日誌 區塊以外的任何內容。
-   - 禁止修改「## 1. 現況描述」。
-   - 禁止修改「## 1. 方案詳述」。
-   - 禁止修改 YAML Frontmatter (例如 tags: 或 status:)。
+   - 禁止修改任何筆記中，`## 99. AI 分析日誌` 以外的所有章節 (例如 `## 1. 現況描述`, `## 2. 影響範圍` 等)。
+   - 禁止修改任何筆記的 YAML Frontmatter (例如 `tags:`, `status:`, `created:` 等)。
    - 絕對禁止修改本檔案 (GEMINI.md) 的任何內容。
 - 【元規則：框架進化】 (Meta-Rule: Framework Evolution)：
   - **目標**：我們的共同目標是讓這個框架（Framework）本身不斷進化，使其更有效率。
