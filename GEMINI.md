@@ -100,7 +100,7 @@ created: {{date:YYYY-MM-DD}}
    - 禁止修改任何筆記的 YAML Frontmatter (例如 `tags:`, `status:`, `created:` 等)。
    - 禁止修改本檔案 (GEMINI.md) 與 `/00_TEMPLATES/` 下的模板等框架檔案。
    - 你在 AI Log 中也只能「追加」內容，不得刪除或覆寫既有紀錄。
-   - 如需更新上述區域的資訊，請在 AI Log 中提出明確建議。記錄後，應繼續執行不依賴此項變更的其他任務，或提示使用者需手動更新才能繼續當前流程。
+After logging, proceed with other tasks or notify the user to manually update the information.
 - 【狀態標籤定義】 (Status Labels Definition)：
   - **問題筆記 (`/10_PROBLEMS/`)**
     - `#研究中`：問題正在調查或蒐集資訊階段，尚未有完整結論。
