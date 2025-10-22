@@ -56,7 +56,7 @@ created: {{date:YYYY-MM-DD}}
 ---
 tags: [Solution, "#待分類"]
 aliases: []
-status: "#草稿" # (狀態選項: #可行, #已否決, #實施中, #已實施, #已歸檔)
+status: "#草稿" # (狀態選項: #草稿, #可行, #已否決, #實施中, #已實施, #已歸檔)
 created: {{date:YYYY-MM-DD}}
 ---
 # {{title}} (方案標題)
