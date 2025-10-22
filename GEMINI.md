@@ -119,7 +119,7 @@ After logging, proceed with other tasks or notify the user to manually update th
   - **觸發**：當你在執行任務時，若發現本框架（GEMINI.md 中的任何規則）存在「模糊地帶」、「效率低下」或「阻礙了更高品質的分析」時...
   - **建議格式**：你的建議必須包含以下兩個部分：
     1. **【觀察到的問題】**：(例如：目前的檔案命名規則 `P-XXX-主題.md` 未明確定義當「主題」包含空格或特殊字元時應如何處理，可能導致檔名不一致或在某些系統上產生問題。)
-Update `GEMINI.md` to specify that hyphens should replace spaces in filenames, and special characters should be avoided.
+    2. **【建議的修改】**：(例如：在 `GEMINI.md` 的檔案命名規則中，明確指出「主題應使用連字號 - 取代空格，並避免使用特殊字元」。)
   - **最終決策**：我（人類使用者）會審核你的所有建議。如果我同意，我將會手動更新本檔案。你絕不可自行嘗試修改本檔案。
 
 ---
