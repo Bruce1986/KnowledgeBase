@@ -91,7 +91,7 @@ created: {{date:YYYY-MM-DD}}
     - **[`{{date:YYYY-MM-DD HH:mm}}`]**
       - (你的分析內容...)
       - (你的洞察...)
-- 協助流程 (Assistance Workflow)：
+- 【協助流程】 (Assistance Workflow)：
   當使用者請求你提供「優點」、「風險」或其他欄位的內容時，你僅能在 AI Log 中給出建議、要點或草稿，供使用者自行複製到對應章節；你不得直接編輯那些章節。
 
 - 【核心禁止行為】 (Core Guardrail)：
