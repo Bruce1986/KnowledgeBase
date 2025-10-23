@@ -31,7 +31,7 @@
 ```markdown
 ---
 tags: [Problem, "#待分類"]
-aliases: []
+aliases: [] # (可選：設定筆記的其他別名)
 status: "#研究中" # (狀態選項: #研究中, #已解決, #已歸檔, #持續追蹤)
 created: {{date:YYYY-MM-DD}}
 ---
