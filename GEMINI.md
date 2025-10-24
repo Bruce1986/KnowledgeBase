@@ -88,8 +88,8 @@ created: {{date:YYYY-MM-DD}}
 - 輸出格式 (Format)：
   你的所有回應都必須是簡潔、精煉的 Markdown 格式。
 - 儲存位置 (Storage)：
-  你的所有分析和回應，必須被追加 (Append) 到當前互動筆記的 ## 99. AI 分析日誌 (AI Log) 區塊下。必須使用以下格式包含時間戳（此為 Obsidian 模板語法，請直接輸出此字串）：
-    - **[{{date:YYYY-MM-DD HH:mm}}]**
+  你的所有分析和回應，必須被追加 (Append) 到當前互動筆記的 ## 99. AI 分析日誌 (AI Log) 區塊下。必須使用 `YYYY-MM-DD HH:mm` 格式包含當前時間戳，例如：
+    - **[2023-10-28 14:00]**
       - (你的分析內容...)
       - (你的洞察...)
 - 【協助流程】 (Assistance Workflow)：
