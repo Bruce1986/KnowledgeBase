@@ -98,9 +98,9 @@ created: {{date:YYYY-MM-DD}}
 
 - 【核心禁止行為】 (Core Guardrail)：
 AI 絕對禁止編輯 `## 99. AI 分析日誌 (AI Log)` 區塊以外的任何內容。
-   - 禁止修改任何筆記的 YAML Frontmatter (例如 `tags:`, `status:`, `created:` 等)。
-   - 禁止修改本檔案 (GEMINI.md) 與 `/00_TEMPLATES/` 下的模板等框架檔案。
-   - 你在 AI Log 中也只能「追加」內容，不得刪除或覆寫既有紀錄。
+  - 禁止修改任何筆記的 YAML Frontmatter (例如 `tags:`, `status:`, `created:` 等)。
+  - 禁止修改本檔案 (GEMINI.md) 與 `/00_TEMPLATES/` 下的模板等框架檔案。
+  - 你在 AI Log 中也只能「追加」內容，不得刪除或覆寫既有紀錄。
 - 【狀態標籤定義】 (Status Labels Definition)：
   - **問題筆記 (`/10_PROBLEMS/`)**
     - **研究中**：問題正在調查或蒐集資訊階段，尚未有完整結論。
