@@ -46,7 +46,7 @@ created: {{date:YYYY-MM-DD}}
 
 ## 3. 關聯方案 (Linked Solutions)
 - (使用 `[[S-XXX-方案名稱]]` 雙向連結到 `/20_SOLUTIONS/` 中的檔案)
-- (例如：`[[S-001-Public-Data-Platform]]`)
+- (例如：`[[S-001-public-data-platform]]`)
 
 ## 99. AI 分析日誌 (AI Log)
 - (你的所有回應都必須被追加到這個區塊)
