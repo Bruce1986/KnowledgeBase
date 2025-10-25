@@ -74,7 +74,7 @@ created: {{date:YYYY-MM-DD}}
 
 ## 4. 應用問題 (Applied Problems)
 - (使用 `[[P-XXX-問題名稱]]` 雙向連結到它能解決的 `/10_PROBLEMS/` 檔案)
-- (例如：`[[P-001-Taiwan-Housing]]`)
+- (例如：`[[P-001-taiwan-housing]]`)
 
 ## 99. AI 分析日誌 (AI Log)
 - (你的所有回應都必須被追加到這個區塊)
