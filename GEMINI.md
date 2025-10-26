@@ -47,7 +47,7 @@
 **解決方案**：建議透過執行一個固定的 Python 腳本 (`temp_ops.py`) 來完成檔案操作，以確保跨平台相容性。
 
 **範例 `temp_ops.py` 內容：**
-'''python
+```python
 import os
 import sys
 import shutil
@@ -90,7 +90,7 @@ def main():
 
 if __name__ == "__main__":
     main()
-'''
+```
 
 ### 2.5. UnicodeEncodeError 終端機輸出問題 (UnicodeEncodeError in Terminal)
 **問題**：在 Windows 終端機中 `print()` 特殊 Unicode 字元（如 `≥`）可能引發 `UnicodeEncodeError`。
