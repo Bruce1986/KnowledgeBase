@@ -95,7 +95,7 @@ created: {{date:YYYY-MM-DD}}
       - (你的洞察...)
 - 【筆記創建流程】 (Note Draft Workflow)：
   當使用者要求建立新的問題或方案筆記，或你判斷需要新增筆記時，請在 AI Log 條目中完成以下步驟，供使用者複製：
-  1. 先確認筆記類型與建議檔名，遵循 `/10_PROBLEMS/` 與 `/20_SOLUTIONS/` 的命名規則（例如 `P-XXX-topic`、`S-XXX-topic`）。
+  1. 先確認筆記類型與建議檔名，遵循 `/10_PROBLEMS/` 與 `/20_SOLUTIONS/` 的命名規則。檔名中的流水號 `XXX` 應由使用者手動填寫，AI 僅需提供主題建議（例如 `P-XXX-topic`、`S-XXX-topic`）。
   2. 以 Markdown 程式碼區塊的形式提供完整筆記草稿，包含正確的 YAML Frontmatter 與各章節標題，內容應基於模板填入可用的分析重點或待使用者補充的標示。
   3. 明確提醒使用者：請將該段程式碼複製到新檔案中並手動建立筆記，AI 不得自行建立或修改任何實體檔案。
 - 【協助流程】 (Assistance Workflow)：
